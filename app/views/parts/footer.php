@@ -21,8 +21,10 @@
 <script type="text/javascript">
             $(document).ready(function() {
                 $(".livepreview").livePreview({
-									viewWidth: 800,
-  								viewHeight: 600,
+									trigger: 'click',
+									viewWidth: 600,
+  								viewHeight: 400,
+									position: 'bottom'
 								});
             });
         </script>
